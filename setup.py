@@ -9,7 +9,7 @@ with open(os.path.join(os.path.dirname(__file__), 'petit.py')) as v_file:
 long_description = """
 petit
 ===========
-Please check test.py file on how to use the code.
+Persian text -> integer, ineteger -> text converter
 """
 
 setup(
@@ -17,9 +17,9 @@ setup(
     version=package_version,
     author='JKhakpour',
     url='https://github.com/JKhakpour/petit',
-    description='Persian text normalizer',
+    description='Persian text -> integer, ineteger -> text converter',
     long_description=long_description,
-    py_modules=['petit'],
+    py_modules=['petit', 'constants'],
     license='MIT',
     classifiers=[
         'Intended Audience :: Developers',
