@@ -9,4 +9,4 @@ Persian text -> integer, ineteger -> text converter
     >>> num_to_ordinal(23)
     'بیست و سوم'
 
-Please open an issue if there are any wrong convertions.
+Please open an issue if there are any wrong conversions.
