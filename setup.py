@@ -4,7 +4,7 @@ from setuptools import setup
 
 # reading package's version (same way sqlalchemy does)
 with open(os.path.join(os.path.dirname(__file__), 'petit.py')) as v_file:
-    package_version = re.compile(r".*__version__ = '(.*?)'", re.S).match(v_file.read()).group(1)
+    package_version = re.compile(r'.*__version__ = "(.*?)"', re.S).match(v_file.read()).group(1)
 
 long_description = """
 petit
